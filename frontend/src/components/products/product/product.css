@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.product_container {
+  flex-wrap: wrap;
+  background: #f7f7f7;
+}
+
+.card_main {
+  width: calc(19.90%);
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card {
+  height: 290px;
+  border: none;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.card:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  width: 100% !important;
+  height: 180px;
+  object-fit: fill;
+}
+
+.card-body {
+  flex: 0.4 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.product_name {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.product_desciption {
+  line-height: 1;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
+small {
+  font-size: small;
+  color: red;
+}
+
+@media (max-width: 1024px) {
+  .product {
+    margin-top: 10px;
+  }
+  .card_main {
+    width: calc(20%);
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .product_container {
+    gap: 0px;
+  }
+  .card {
+    height: 220px;
+    padding: 6px;
+  }
+  .product-img {
+    height: 150px;
+  }
+  .product_name {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+  }
+
+  .product_desciption {
+    line-height: 1;
+    font-size: 0.6rem;
+    margin-bottom: 2px;
+  }
+
+  .price {
+    font-weight: 600;
+    font-size: small;
+  }
+  .card-body {
+    padding: 2px;
+    flex: 0.7 !important;
+  }
+  small {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 850px) {
+  .product {
+    margin-top: 1rem !important;
+  }
+  .card_main {
+    padding: 2px;
+  }
+  .card {
+    height: 150px;
+     padding: 6px;
+  }
+  .product-img {
+    height: 110px;
+  }
+  .product_name {
+    font-size: 0.5rem;
+    font-weight: bolder;
+  }
+
+  .product_desciption {
+    font-size: 0.4rem;
+  }
+
+  .price {
+    font-weight: 800;
+    font-size: 0.43rem;
+  }
+  .card-body {
+    padding: 1px;
+    flex: 0.6 !important;
+    flex: 0.6 !important;
+  }
+  small {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .card_main {
+    padding: 2px;
+  }
+
+  .card {
+    height: 140px;
+    border-radius: 5px;
+    padding: 4px;
+  }
+  .product-img {
+    height: 95px;
+  }
+  .product_name {
+    font-size: 0.5rem;
+    margin-bottom: 2px;
+  }
+
+  .product_desciption {
+    font-size: 0.4rem;
+  }
+
+  .price {
+    font-weight: 500;
+    font-size: xx-small;
+  }
+  .card-body {
+    padding: 2px;
+    flex: 0.6 !important;
+  }
+  small {
+    font-size: 0.4rem;
+  }
+}
+@media (max-width: 550px) {
+  .product {
+    margin-top: 0.2rem !important;
+  }
+ 
+  .card_main {
+    width: calc(25%);
+    margin-bottom: 0px;
+    padding: 2px;
+  }
+  .card_main {
+    padding: 2px;
+    margin-top: 2px;
+  }
+
+  .card {
+    height: 110px;
+    padding: 4px;
+  }
+  .product-img {
+    height: 80px;
+  }
+  .product_name {
+    font-size: 0.36rem;
+    margin-bottom: 2px;
+  }
+
+  .product_desciption {
+    font-size: 0.25rem;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 0.32rem;
+  }
+  .card-body {
+    padding: 1px;
+    flex: 0.3 !important;
+  }
+  small {
+    font-size: 0.3rem;
+  }
+}
+@media (max-width: 375px) {
+  .product {
+    margin-top: 0.2rem !important;
+  }
+  .card_main {
+    width: calc(25%);
+    margin-bottom: 0px;
+    padding: 2px;
+  }
+  .card_main {
+    padding: 2px;
+    margin-top: 2px;
+  }
+
+  .card {
+    height: 90px;
+    padding: 4px;
+  }
+  .product-img {
+    height: 60px;
+  }
+  .product_name {
+    font-size: 0.36rem;
+    margin-bottom: 2px;
+  }
+
+  .product_desciption {
+    font-size: 0.25rem;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 0.32rem;
+  }
+  .card-body {
+    padding: 1px;
+    flex: 0.3 !important;
+  }
+  small {
+    font-size: 0.2rem;
+  }
+}

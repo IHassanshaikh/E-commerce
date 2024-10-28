@@ -1,0 +1,43 @@
+.about{
+  background-image: url('../../assets/aboutus/background.avif');
+  background-size: cover;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_main{
+ text-align: center;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ font-size: xx-large;
+}
+.aboutus_content{
+  text-align: center;
+  margin: 10px;
+}
+
+@media (max-width:768px) {
+  .about_main {
+      font-size: large;
+    }
+  
+    .aboutus_content {
+      margin: 10px;
+      font-size: 0.9rem;
+    }
+}
+@media (max-width:430px) {
+  .about {
+      height: 350px;
+      flex-direction: column;
+      justify-content: center;
+    }
+  .about_main {
+      font-size: medium;
+    }
+  
+    .aboutus_content {
+      margin: 7px;
+      font-size: 0.6rem;
+    }
+}

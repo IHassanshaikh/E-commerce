@@ -1,0 +1,196 @@
+/* src/App.css */
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+/* Media Queries for Tablets */
+@media (max-width: 1024px) {
+  .card-header {
+    font-size: 0.8rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.7rem;
+  }
+
+  .btn-block {
+    font-size: 0.6rem;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+    /* Adjust button font size */
+  }
+
+  .table .btn {
+    padding: 0.1rem 0.4rem;
+    /* Smaller button padding */
+  }
+
+  .card-body {
+    padding: 0.8rem;
+  }
+
+  .quantity-controls {
+    font-size: 0.7rem;
+    /* Smaller font size for quantity controls */
+  }
+}
+@media (max-width: 768px) {
+  .card-header {
+    font-size: 1rem;
+  }
+.summary_card{
+  height: 200px !important;
+}
+  .table th,
+  .table td {
+    font-size: 0.8rem;
+  }
+
+  .btn-block {
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    /* Adjust button font size */
+  }
+
+  .table .btn {
+    padding: 0.2rem 0.5rem;
+    /* Smaller button padding */
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .quantity-controls {
+    font-size: 0.7rem;
+    /* Smaller font size for quantity controls */
+  }
+
+  .checkout_button{
+    width: 100px;
+    margin-top: 20px;
+    font-size: small;
+    z-index: 1;
+  }
+
+  .calculation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculated_price{
+    margin-top: 20px;
+    font-size: medium;
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 576px) {
+  .card-header {
+    font-size: 0.8rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.7rem;
+  }
+
+  .btn-block {
+    font-size: 0.525rem;
+  }
+
+  .btn {
+    font-size: 0.525rem;
+    /* Further reduce button font size */
+  }
+
+  .table .btn {
+    padding: 0.1rem 0.3rem;
+    /* Even smaller button padding */
+  }
+
+  .card-body {
+    padding: 0.5rem;
+  }
+
+  .quantity-controls {
+    font-size: 0.52rem;
+    /* Smaller font size for quantity controls */
+  }
+}
+
+/* Additional Styles for Small Screens */
+@media (max-width: 450px) {
+  .card-header {
+    font-size: 0.7rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.55rem;
+  }
+
+  .btn-block {
+    font-size: 0.4rem;
+  }
+
+  .btn {
+    font-size: 0.4rem;
+    /* Smallest button font size */
+  }
+
+  .table .btn {
+    padding: 0.1rem 0.1rem;
+    /* Minimal button padding */
+  }
+
+  .card-body {
+    padding: 0.3rem;
+  }
+
+  .quantity-controls {
+    font-size: 0.4rem;
+  }
+    .checkout_button {
+      width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cart_summary{
+      width: 200px;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+    }
+}

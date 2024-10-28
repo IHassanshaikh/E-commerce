@@ -1,0 +1,91 @@
+.rights {
+  text-align: center;
+}
+.link-body-emphasis {
+  text-align: center;
+}
+.text-body-secondary {
+  font-size: 0.9rem !important;
+}
+.subs_button {
+  border-radius: 20px;
+}
+.footer{
+  padding: 20px;
+}
+
+@media (max-width: 782px) {
+  .text-body-secondary {
+    font-size: 0.8rem !important;
+  }
+  .footer_section {
+    font-size: 1rem !important;
+  }
+
+  form h5 {
+    font-size: 0.9rem !important;
+  }
+  form p {
+    font-size: 0.7rem !important;
+  }
+  .subs_button {
+    font-size: 0.6rem !important;
+    padding: 0 !important;
+    height: 30px;
+    width: 70px;
+  }
+  .subs_input {
+    height: 30px;
+  }
+  .footer {
+    padding: 15px !important;
+  }
+  .rights {
+    font-size: 0.8rem !important;
+    margin-bottom: 3px !important;
+  }
+}
+@media (max-width: 450px) {
+  .text-body-secondary {
+    font-size: 0.6rem !important;
+  }
+  .footer_section {
+    font-size: 0.8rem !important;
+  }
+  .rights {
+    font-size: 0.7rem !important;
+    text-align: center;
+  }
+  form h5 {
+    font-size: 0.7rem !important;
+  }
+
+  form p {
+    font-size: 0.5rem !important;
+  }
+
+  .subs_button {
+    font-size: 0.5rem !important;
+    padding: 4px !important;
+    height: 20px;
+    width: 50px !important;
+  }
+
+  .subs_input {
+    height: 20px;
+    font-size: x-small;
+  }
+
+  .footer {
+    padding: 10px !important;
+  }
+
+  .footer_sec2{
+    margin-bottom:5px !important;
+  }
+
+  .footer_sec1{
+    margin-bottom: 5px !important;
+  }
+
+}

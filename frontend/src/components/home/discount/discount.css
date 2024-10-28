@@ -1,0 +1,148 @@
+.Discount_banner {
+background-image:url("data:image/jpeg;base64,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") ;
+  background-size: cover;
+  padding: 10px;
+  margin: 80px;
+  height: 450px;
+  padding: 50px;
+}
+.discount_img {
+  width: 2.7rem !important;
+  margin-right: 5px;
+}
+.discount_offer {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.discount_para {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+.discount_main_img {
+  width: 50% !important;
+}
+
+.discount_button {
+  box-shadow: 1px 4px 10px 1px gray;
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .Discount_banner {
+    padding: 50px;
+    margin: 60px;
+    height: 350px;
+  }
+  .discount_offer {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  .discount_para {
+    margin: 10px;
+    font-size: 0.9rem;
+  }
+ 
+
+  .discount_button {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .Discount_banner {
+    padding: 30px;
+    margin: 40px;
+    height: 250px;
+  }
+  .discount_main_img {
+    width: 50% !important;
+  }
+
+  .discount_button {
+    font-size: 0.8rem;
+    font-size: x-small;
+      margin-top: 7px;
+  }
+  .discount_offer {
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+
+  .discount_para {
+    margin: 5px;
+    font-size: 0.6rem;
+  }
+  .discount_img {
+    width: 2rem !important;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 558px) {
+  .Discount_banner {
+      padding: 30px;
+      margin: 40px;
+      height: 180px;
+    }
+
+  .discount_button {
+    font-size: 0.4rem;
+    padding: 2px 0px;
+      margin-top: 3px;
+  }
+   
+  
+    .discount_main_img {
+      width: 50% !important;
+    }
+  
+ 
+    .discount_offer {
+      font-size: 0.7rem;
+      font-weight: bolder ;
+    }
+  
+    .discount_para {
+      margin: 5px;
+      font-size: 0.5rem;
+    }
+  
+    .discount_img {
+      width: 1.3rem !important;
+    }
+}
+@media (max-width: 430px) {
+  .Discount_banner {
+      padding: 20px;
+      margin: 20px;
+      height: 150px;
+    }
+
+  .discount_button {
+    font-size: 0.2rem;
+    margin-top: 1px;
+    width: 25px;
+  }
+   
+  
+    .discount_main_img {
+      width: 50% !important;
+    }
+  
+ 
+    .discount_offer {
+      font-size: 0.5rem;
+      font-weight: bolder ;
+    }
+  
+    .discount_para {
+      margin: 3px;
+      font-size: 0.3rem;
+    }
+  
+    .discount_img {
+      width: 0.7rem !important;
+    }
+}
+
+

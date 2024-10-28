@@ -1,0 +1,42 @@
+/* Styles for screens up to 1024px */
+
+
+/* Styles for screens up to 768px */
+@media (max-width: 1024px) {
+  .breadcrumb {
+    margin: 0.8rem;
+    /* Adjust margin as needed */
+    font-size: 0.8rem;
+    /* Adjust font size as needed */
+  }
+}
+
+/* Styles for screens up to 500px */
+@media (max-width: 768px) {
+  .breadcrumb {
+    margin: 0.6rem;
+    /* Adjust margin as needed */
+    font-size: 0.75rem;
+    /* Adjust font size as needed */
+  }
+}
+
+/* Styles for screens up to 450px */
+@media (max-width: 500px) {
+  .breadcrumb {
+    margin: 0.5rem;
+    /* Adjust margin as needed */
+    font-size: 0.7rem;
+    /* Adjust font size as needed */
+  }
+}
+
+/* Styles for screens up to 200px */
+@media (max-width: 450px) {
+  .breadcrumb {
+    margin: 0.3rem;
+    /* Adjust margin as needed */
+    font-size: 0.6rem;
+    /* Adjust font size as needed */
+  }
+}

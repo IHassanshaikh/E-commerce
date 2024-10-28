@@ -1,0 +1,120 @@
+/* Base styles for the header */
+.navbar {
+  transition: all 0.5s ease;
+}
+
+.stickynav1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 7px 2px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #003366;
+}
+
+.stickynav1 .nav_main {
+  padding: 0.5rem 1rem;
+}
+.nav_main {
+  justify-content: space-between !important;
+  width: 100%;
+}
+.logo {
+  width: 100px !important;
+}
+.buttons {
+  display: none;
+}
+.icon {
+  display: inline-block;
+  color: rgb(2, 13, 35);
+}
+.search,
+.cart {
+  font-size: 20px;
+  margin: 10px;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 13px !important;
+  }
+  .navs {
+    font-size: 0.9rem;
+    margin: 0 !important;
+    padding-right: 2px !important;
+  }
+
+  .nav_button {
+    font-size: small;
+    padding: 5px 0px;
+    width: 70px !important;
+  }
+}
+@media (max-width: 770px) {
+  .navbar {
+    padding: 10px !important;
+  }
+  .navs {
+    font-size: 0.7rem;
+  }
+
+  .nav_button {
+    font-size: x-small !important;
+    width: 55px !important;
+  }
+  .logo {
+    width: 50px !important;
+  }
+  .search,
+  .cart {
+    font-size: 17px;
+    margin: 7px;
+  }
+}
+@media (max-width: 580px) {
+  .navbar {
+    padding: 9px !important;
+  }
+  .navs {
+    font-size: 0.6rem;
+    padding: 5px !important;
+  }
+  .search,
+  .cart {
+    font-size: 11px;
+    margin: 3px;
+  }
+  .nav_button {
+    font-size: 0.4rem !important;
+    width: 40px !important;
+    padding: 4px 0px !important;
+  }
+  .logo {
+    width: 40px !important;
+  }
+}
+@media (max-width: 425px) {
+  .navbar {
+    padding: 3px !important;
+  }
+  .navs {
+    font-size: 0.4rem;
+    padding: 4px !important;
+  }
+
+  .nav_button {
+    font-size: 0.25rem !important;
+    width: 25px !important;
+    padding: 2px 0px !important;
+    margin: 1px !important;
+  }
+  .logo {
+    width: 30px !important;
+  }
+  .search,
+  .cart {
+    font-size: 11px;
+    margin: 3px;
+  }
+}

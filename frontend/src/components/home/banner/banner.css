@@ -1,0 +1,74 @@
+.Banner {
+  background-image: url(//static.vecteezy.com/system/resources/thumbnails/005/169/172/small_2x/banner-abstract-geometric-white-and-gray-color-background-illustration-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 500px;
+  padding-top: 20px;
+}
+.slide-content {
+  text-align: center;
+  padding: 5px;
+}
+
+.banner_img {
+  width: 35% !important;
+}
+
+.button {
+  box-shadow: 1px 4px 10px 1px gray;
+}
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .h6 {
+    font-size: 0.9rem;
+  }
+
+  .banner_img {
+    width: 40% !important;
+  }
+
+  .button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .h1 {
+    font-size: medium;
+  }
+
+  .h6 {
+    font-size: 0.7rem;
+  }
+
+  .banner_img {
+    width: 50% !important;
+  }
+
+  .extra {
+    display: none;
+  }
+
+  .button {
+    font-size: 0.6rem;
+    padding: 5px 7px;
+  }
+}
+@media (max-width: 768px) {
+  .Banner {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Banner {
+    height: 270px;
+  }
+}
